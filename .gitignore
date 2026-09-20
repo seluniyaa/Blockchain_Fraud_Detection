@@ -1,0 +1,90 @@
+# ==============================================================================
+# Git Ignore Configuration - Blockchain Credit Card Fraud Detection Platform
+# ==============================================================================
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+comparison.txt
+MASTER_THESIS_DOCUMENTATION.md
+MIGRATION.md
+project_info.txt
+Project_Proposal_Blockchain_Fraud_Detection.md
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Node.js & Frontend Build Artifacts ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- SQLite Runtime Temporary Files (Preserve Seeded .db files) ---
+*.db-wal
+*.db-shm
+*.db-journal
+test_core.db
+
+# --- Environment & Secret Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-Generated Artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Test & Coverage Artifacts ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
